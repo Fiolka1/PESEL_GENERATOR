@@ -1,0 +1,13 @@
+#pesel{
+    width: 50%;
+    height: 100%;
+    background-color:aquamarine ;
+    float: left;
+}
+#sprawdz_pesel{
+    width: 50%;
+    height: 100%;
+    background-color:purple ;
+    float: left;
+    color: white;
+}

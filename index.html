@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pesel">
+        <select name="" id="plec">
+            <option value="kobieta">Kobieta</option>
+            <option value="chlop">Chłop</option>
+        </select><br>
+        Wpisz dzień <input type="number" name="" id="dzien" min="1" max="31"> <br>
+        Wpisz miesiąc <input type="number" name="" id="miesiac" min="1" max="12"> <br>
+        Wpisz rok <input type="number" name="" id="rok" min="1900" max="3000"> <br>
+        <button onclick="pesel()">Stwórz pesel</button> <br>
+        <span id="wynik_pesela"></span>
+    </div>
+    <div id="sprawdz_pesel">
+        Sprawdź pesel
+        <input type="number" name="" id="sprawdzenie" max="99999999999"> <button onclick="sprawdz()">Sprawdź</button> <br>
+        <span id="dziens"></span> <br>
+        <span id="miesiacs"></span> <br>
+        <span id="roks"></span> <br>
+        <span id="plecs"></span> <br>
+        <span id="liczba_kontrolna"></span> <br>
+
+    </div>
+    
+</body>
+</html>
